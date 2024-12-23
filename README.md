@@ -14,3 +14,9 @@ run: [http://localhost:8080](http://localhost:8080)
 wget -O /bin/ttyd https://raw.githubusercontent.com/xiv3r/web-terminal/refs/heads/main/bin/ttyd-arm64 && chmod 700 /bin/ttyd && ttyd -p 8080 bash
 ```
 run: [http://localhost:8080](http://localhost:8080)
+
+
+<br>
+<br>
+<br>
+Binaries Credits: [tsl0922](https://github.com/tsl0922/ttyd)
