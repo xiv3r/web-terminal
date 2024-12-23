@@ -1,5 +1,6 @@
-# web-terminal
-Share terminal over web
+# TTYD
+
+<img src="https://github.com/xiv3r/web-terminal/blob/main/bin/ttyd.png">
 
 # Installation
 
