@@ -3,6 +3,10 @@ Share terminal over web
 
 # Installation
 
+- For openwrt
+```
+opkg install luci-app-ttyd
+```
 - For amd64
 ```
 sudo apt install ttyd
