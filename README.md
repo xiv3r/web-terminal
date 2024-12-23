@@ -3,6 +3,10 @@ Share terminal over web
 
 # Installation
 
+- For amd64
+```
+sudo apt install ttyd
+```
 - For aarch64
 ```
 wget -O /bin/ttyd https://raw.githubusercontent.com/xiv3r/web-terminal/refs/heads/main/bin/ttyd-aarch64 && chmod 700 /bin/ttyd && ttyd -p 8080 bash &>/dev/null & pid=$!
@@ -13,7 +17,11 @@ wget -O /bin/ttyd https://raw.githubusercontent.com/xiv3r/web-terminal/refs/head
 wget -O /bin/ttyd https://raw.githubusercontent.com/xiv3r/web-terminal/refs/heads/main/bin/ttyd-arm64 && chmod 700 /bin/ttyd && ttyd -p 8080 bash &>/dev/null & pid=$!
 ```
 
-run: 
+- For armhf
+```
+wget -O /bin/ttyd https://raw.githubusercontent.com/xiv3r/web-terminal/refs/heads/main/bin/ttyd-armhf && chmod 700 /bin/ttyd && ttyd -p 8080 bash &>/dev/null & pid=$!
+```
+# Run
 ```
 ttyd -p 8080 bash &>/dev/null & pid=$!
 ```
