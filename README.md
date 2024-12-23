@@ -5,15 +5,19 @@ Share terminal over web
 
 - For aarch64
 ```
-wget -O /bin/ttyd https://raw.githubusercontent.com/xiv3r/web-terminal/refs/heads/main/bin/ttyd-aarch64 && chmod 700 /bin/ttyd && ttyd -p 8080 bash
+wget -O /bin/ttyd https://raw.githubusercontent.com/xiv3r/web-terminal/refs/heads/main/bin/ttyd-aarch64 && chmod 700 /bin/ttyd && ttyd -p 8080 bash &>/dev/null & pid=$!
 ```
-run: [http://localhost:8080](http://localhost:8080)
 
 - For arm64
 ```
-wget -O /bin/ttyd https://raw.githubusercontent.com/xiv3r/web-terminal/refs/heads/main/bin/ttyd-arm64 && chmod 700 /bin/ttyd && ttyd -p 8080 bash
+wget -O /bin/ttyd https://raw.githubusercontent.com/xiv3r/web-terminal/refs/heads/main/bin/ttyd-arm64 && chmod 700 /bin/ttyd && ttyd -p 8080 bash &>/dev/null & pid=$!
 ```
-run: [http://localhost:8080](http://localhost:8080)
+
+run: 
+```
+ttyd -p 8080 bash &>/dev/null & pid=$!
+```
+Open the Browser 👉 [http://localhost:8080](http://localhost:8080)
 
 
 <br>
