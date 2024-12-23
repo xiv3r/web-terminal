@@ -32,8 +32,6 @@ ttyd -p 8080 bash &>/dev/null & pid=$!
 ```
 Open the Browser 👉 [http://localhost:8080](http://localhost:8080)
 
+<br>
 
-<br>
-<br>
-<br>
 Binaries Credits: [tsl0922](https://github.com/tsl0922/ttyd)
